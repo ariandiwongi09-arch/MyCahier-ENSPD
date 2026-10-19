@@ -1,0 +1,37 @@
+# Fichiers sensibles
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+auth.json
+
+# Dépendances
+**/vendor/
+**/node_modules/
+**/.dart_tool/
+**/.pub-cache/
+
+# Fichiers générés
+**/build/
+**/coverage/
+**/__pycache__/
+*.pyc
+*.log
+
+# IDE et système
+**/.idea/
+**/.vscode/
+.DS_Store
+Thumbs.db
+
+# Clés privées et certificats
+*.jks
+*.keystore
+*.pem
+*.key
+
+# Fichiers temporaires
+*.swp
+*.tmp
